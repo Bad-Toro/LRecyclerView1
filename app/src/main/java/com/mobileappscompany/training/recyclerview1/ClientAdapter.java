@@ -54,7 +54,7 @@ public class ClientAdapter extends RecyclerView.Adapter<ClientAdapter.ClientView
 
         holder.cName.setText(thisClient.getName());
         holder.cPhone.setText(thisClient.getPhone());
-        holder.cLL.setTag("Hello");
+  s      holder.cLL.setTag("Hello");
 
         holder.cLL.setOnClickListener(new View.OnClickListener() {
             @Override
